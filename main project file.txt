@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jewellery</title>
+
+    <link rel="stylesheet" href="Earing.css" />
+  </head>
+  <body>
+    <div>
+      <nav>
+        <label class="logo">Order Tracking</label>
+        <ul>
+          <li><a class="Active" href="#">Home</a></li>
+
+          <li><a href="#">Track Order</a></li>
+          <li><a href="#">Employees</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="userdetails" style="text-align: center" style="color: white">
+      <h2>User Registation</h2>
+      <br />
+
+      <form action="/action_page.php">
+        <label for="fname"><b>Username:</b></label>
+        <input
+          type="text"
+          placeholder="Enter User Name"
+          id="fname"
+          name="fname"
+        /><br /><br />
+        <label for="psw"><b>Password: </b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="psw"
+          id="psw"
+          required
+        /><br /><br />
+        <label for="lname"><b style="padding-right;: 10px">Name:</b></label>
+        <input
+          type="text"
+          placeholder="Enter your name"
+          id="lname"
+          name="lname"
+        /><br /><br />
+        <label for="email"><b>Email:</b></label>
+        <input
+          type="text"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        /><br /><br />
+        <label for="number"><b>Phone:</b></label>
+        <input
+          type="number"
+          id="phone number"
+          placeholder="Mobile number"
+        /><br /><br />
+        <input type="submit" style="background-color: white" value="Submit" />
+        <button style="background-color: white">New register</button>
+      </form>
+    </div>
+  </body>
+</html>
+__________________________________
+
+
+_______________________---=======
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: powderblue;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nov{
+    background: #0974c5;
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(58, 27, 234);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+
+}
+nav li{
+    display:inline-block ;
+    line-height:80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: rgb(10, 1, 1);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.Active,a:hover{
+    background: #1b9bff;
+    transition: .5s;
+
+}
+
